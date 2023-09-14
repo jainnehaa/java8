@@ -1,0 +1,42 @@
+Java 8
+from :
+	1. https://www.youtube.com/@EngineeringDigest 
+		- playlist : https://youtube.com/playlist?list=PLA3GkZPtsafZR6arC1A3N0i968gk9RvMv&si=Vq1blHjZc1JdkKaf
+	2. google (multiple sources) for different queries and code snippets
+	
+need for java 8 : 
+concise and minimal code
+functional programming
+parallel programming enabling
+
+key features : 
+lambda expression - anonymous functions, which doesn't have any name, return type, modifier, return keyword, braces, parameter types (use type inference), avoids shadow variables 
+functional interfaces - exactly (0 bhi nahi chalegi) single abstract method and any number of default and static methods and @FunctionalIterface annotations used
+stream api
+date and time api
+base64 encode and decode
+method reference and constructor reference :: operator
+default and static methods in interfaces
+optional classes
+java io improvements
+collection api improvements
+
+functional interface is an interface with a single abstract method, which is intended to represent a single unit of behavior that can be implemented by a lambda expression or method reference
+functional interfaces without the @FunctionalInterface annotation can still be used for lambda expressions and method references
+it's simply a marker annotation that helps clarify the intention of the interface
+child interface if parent is functional interface, until we give declaration of same abstract method as of parent 
+
+default methods - methods with body and can be made only in interfaces
+default keyword is necessary
+Duplicate default methods named sayHello with the parameters () and () are inherited from the types B and A
+quick fix to override default method of A or B
+A.super.sayHello();
+or implement ones own
+
+static method has body and cannot be overriden or changed in impl class, coz it is not visible (dikhta hi nahi hai) to implementaion class
+so if we create same name method there, it would be all together different and can be made even private nonstatic, because it is not overriden
+main method can be created in interface from java 8 - public static void main() 
+
+functional interface act as data type for lambda expression
+so, we donot need seperate implementation class
+so when our interface donot have need of more than one method, we donot require seperate impl class
