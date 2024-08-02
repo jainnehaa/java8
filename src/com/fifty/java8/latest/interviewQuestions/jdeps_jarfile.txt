@@ -1,0 +1,51 @@
+
+C:\Users\neha0\eclipse-workspace\Java8>cd C:\Users\neha0\.p2\pool\plugins
+
+C:\Users\neha0\.p2\pool\plugins>jdeps slf4j.api_1.7.36.jar                               slf4j.api_1.7.36.jar -> java.base*.class
+slf4j.api_1.7.36.jar -> not found
+   org.slf4j                                          -> java.io                                           java.base
+   org.slf4j                                          -> java.lang                                         java.base
+   org.slf4j                                          -> java.net                                          java.base
+   org.slf4j                                          -> java.util                                         java.base
+   org.slf4j                                          -> java.util.concurrent                              java.base
+   org.slf4j                                          -> org.slf4j.event                                   slf4j.api_1.7.36.jar
+   org.slf4j                                          -> org.slf4j.helpers               
+                  slf4j.api_1.7.36.jar
+   org.slf4j                                          -> org.slf4j.impl                   
+                  not found
+   org.slf4j                                          -> org.slf4j.spi                    
+                  slf4j.api_1.7.36.jar
+   org.slf4j.event                                    -> java.lang                        
+                  java.base
+   org.slf4j.event                                    -> java.util                        
+                  java.base
+   org.slf4j.event                                    -> org.slf4j                        
+                  slf4j.api_1.7.36.jar
+   org.slf4j.event                                    -> org.slf4j.helpers                
+                  slf4j.api_1.7.36.jar
+   org.slf4j.event                                    -> org.slf4j.spi                    
+                  slf4j.api_1.7.36.jar
+   org.slf4j.helpers                                  -> java.io                          
+                  java.base
+   org.slf4j.helpers                                  -> java.lang                        
+                  java.base
+   org.slf4j.helpers                                  -> java.lang.reflect                
+                  java.base
+   org.slf4j.helpers                                  -> java.util                        
+                  java.base
+   org.slf4j.helpers                                  -> java.util.concurrent             
+                  java.base
+   org.slf4j.helpers                                  -> org.slf4j                        
+                  slf4j.api_1.7.36.jar
+   org.slf4j.helpers                                  -> org.slf4j.event                  
+                  slf4j.api_1.7.36.jar
+   org.slf4j.helpers                                  -> org.slf4j.spi                    
+                  slf4j.api_1.7.36.jar
+   org.slf4j.spi                                      -> java.lang                        
+                  java.base
+   org.slf4j.spi                                      -> java.util                        
+                  java.base
+   org.slf4j.spi                                      -> org.slf4j                        
+                  slf4j.api_1.7.36.jar
+
+C:\Users\neha0\.p2\pool\plugins>
